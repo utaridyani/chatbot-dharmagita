@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-jenis",
+      "2": "I-jenis",
+      "3": "L-jenis",
+      "4": "U-jenis",
+      "5": "B-jenis ",
+      "6": "I-jenis ",
+      "7": "L-jenis ",
+      "8": "U-jenis ",
+      "9": "B-judul",
+      "10": "I-judul",
+      "11": "L-judul",
+      "12": "U-judul",
+      "13": "B-yadnya_type",
+      "14": "I-yadnya_type",
+      "15": "L-yadnya_type",
+      "16": "U-yadnya_type",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-jenis": 1,
+      "I-jenis": 2,
+      "L-jenis": 3,
+      "U-jenis": 4,
+      "B-jenis ": 5,
+      "I-jenis ": 6,
+      "L-jenis ": 7,
+      "U-jenis ": 8,
+      "B-judul": 9,
+      "I-judul": 10,
+      "L-judul": 11,
+      "U-judul": 12,
+      "B-yadnya_type": 13,
+      "I-yadnya_type": 14,
+      "L-yadnya_type": 15,
+      "U-yadnya_type": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "action_listen": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7
+  },
+  "[ginada](judul)": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2
+  },
+  "[ngaden awak bisa](judul)": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "audio": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "[durma](judul)": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "[pupuh](jenis)": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4
+  },
+  "action_informasi_dharmagita": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "None": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+  },
+  "action_audio_dharmagita": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "informasi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "utter_welcoming_message": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "action_lirik_dharmagita": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "lirik": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "micro avg": {
+    "precision": 0.8928571428571429,
+    "recall": 0.7575757575757576,
+    "f1-score": 0.819672131147541,
+    "support": 33
+  },
+  "macro avg": {
+    "precision": 0.7857142857142857,
+    "recall": 0.7219387755102041,
+    "f1-score": 0.7462061747776033,
+    "support": 33
+  },
+  "weighted avg": {
+    "precision": 0.8484848484848485,
+    "recall": 0.7575757575757576,
+    "f1-score": 0.7946497946497946,
+    "support": 33
+  },
+  "accuracy": 0.7575757575757576,
+  "conversation_accuracy": {
+    "accuracy": 0.5,
+    "correct": 1,
+    "with_warnings": 0,
+    "total": 2
+  }
+}

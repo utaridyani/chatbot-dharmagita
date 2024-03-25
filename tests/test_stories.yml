@@ -1,0 +1,147 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: informasi 1
+  steps:
+  - user: |
+      hai
+    intent: greet
+  - action: utter_welcoming_message
+  - user: |
+      berikan saya informasi tentang [pupuh](jenis) [durma](judul)
+    intent: informasi
+    entities:
+      - jenis: "pupuh"
+      - judul: "durma"
+  - action: action_informasi_dharmagita
+  - user: |
+      sekarang saya ingin informasi mengenai [pupuh](jenis) [ginada](judul)
+    intent: informasi
+    entities:
+      - jenis: "pupuh"
+      - judul: "ginada"
+  - action: action_informasi_dharmagita
+  - user: |
+      apa anda punya audio dari [pupuh](jenis) [ginada](judul)?
+    intent: audio
+    entities:
+      - jenis: "pupuh"
+      - judul: "ginada"
+  - action: action_audio_dharmagita
+  - user: |
+      berikan lirik eda [ngaden awak bisa](judul)
+    intent: lirik
+    entities:
+      - judul: "eda ngaden awak bisa"
+  - action: action_lirik_dharmagita
+  # - user: |
+  #     berikan informasi mengenai pupuh ginada
+  #   intent: informasi
+  # - action: action_display_response
+  # - action: utter_acknowledge_provided_info
+  # - action: action_informasi_dharmagita
+  # - user: |
+  #     sekarang saya ingin informasi mengenai pupuh ginada                                               
+  #   intent: informasi
+  # - action: action_display_response
+  # - action: utter_acknowledge_provided_info
+  # - action: action_informasi_dharmagita
+
+- story: full
+  steps:
+  - user: |
+      halo
+    intent: greet
+  - action: utter_welcoming_message
+  - user: |
+      saya ingin tahu informasi mengenai [pupuh](jenis) [durma](judul)
+    intent: informasi
+    entities:
+      - jenis: "pupuh"
+      - judul: "durma"
+  - action: action_informasi_dharmagita
+
+# - story: informasi 2
+#   steps:
+#   - user: |
+#       berikan informasi mengenai pupuh ginada
+#     intent: informasi
+#   - action: action_informasi_dharmagita
+
+# - story: informasi 3
+#   steps:
+#   - user: |
+#       sekarang saya ingin informasi mengenai pupuh ginada                                               
+#     intent: informasi
+#   - action: action_informasi_dharmagita
+
+
+# - story: contoh 1
+#   steps:
+#   - user: |
+#       coba berikan salah satu contoh judul pupuh durma
+#     intent: contoh
+#   - action: action_contoh_dharmagita
+
+
+# - story: contoh 2
+#   steps:
+#   - user: |
+#       saya ingin tau contoh-contoh dari kekawin
+#     intent: contoh
+#   - action: action_contoh_dharmagita
+
+
+# - story: lirik 1
+#   steps:
+#   - user: |
+#       lirik eda ngaden awak bisa 
+#     intent: lirik
+#   - action: action_lirik_dharmagita
+
+# - story: lirik 2
+#   steps:
+#   - user: |
+#       lirik ratu anom
+#     intent: lirik
+#   - action: action_lirik_dharmagita
+
+
+# # - story: lirik 1
+# #   steps:
+# #   - user: |
+# #       apa itu pupuh ginada?
+# #     intent: informasi
+# #   - action: action_display_response
+# #   - action: utter_acknowledge_provided_info
+# #   - action: action_informasi_dharmagita
+
+
+# - story: audio 1
+#   steps:
+#   - user: |
+#       saya ingin mendengarkan lagu putri cening ayu
+#     intent: audio
+#   - action: action_audio_dharmagita
+#   - user: |
+#       berikan audio dari pupuh durma
+#     intent: audio
+#   - action: action_audio_dharmagita
+
+
+# - story: audio 2
+#   steps:
+#   - user: |
+#       berikan audio dari juru pencar
+#     intent: audio
+#   - action: action_audio_dharmagita
+
+# - story: audio 2
+#   steps:
+#   - user: |
+#       berikan audio dari juru pencar
+#     intent: audio
+#   - action: action_display_response
+#   - action: utter_acknowledge_provided_info
+#   - action: action_audio_dharmagita

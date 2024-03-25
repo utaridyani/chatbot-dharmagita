@@ -1,0 +1,131 @@
+[
+  {
+    "text": "Bisa berikan penjelasan singkat mengenai pupuh ginada? Seperti fakta unik atau sejarah kapan dibuatnya, dll\tBisa berikan penjelasan singkat mengenai pupuh ginada? Seperti fakta unik atau sejarah kapan dibuatnya, dll",
+    "entities": [
+      {
+        "start": 149,
+        "end": 154,
+        "value": "pupuh",
+        "entity": "jenis"
+      },
+      {
+        "start": 155,
+        "end": 161,
+        "value": "ginada",
+        "entity": "judul"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "jenis",
+        "start": 41,
+        "end": 46,
+        "confidence_entity": 0.786283016204834,
+        "value": "pupuh",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "jenis",
+        "start": 149,
+        "end": 154,
+        "confidence_entity": 0.7568760514259338,
+        "value": "pupuh",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "judul",
+        "start": 155,
+        "end": 161,
+        "confidence_entity": 0.6791614890098572,
+        "value": "ginada",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Bagaimana sejarah terbentuknya sekar rare",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "value": "sekar",
+        "entity": "judul"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "value": "rare",
+        "entity": "jenis"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "jenis",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.9238758683204651,
+        "value": "sekar",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "jenis",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.7031190991401672,
+        "value": "rare",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Berikan contoh kekawin(judul) yang paling mudah untuk di pelajari?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "kekawin",
+        "entity": "jenis"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "sebutkan contoh kekawin(judul)",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "kekawin",
+        "entity": "jenis"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Contoh kekawin(judul) yang terkenal",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "kekawin",
+        "entity": "jenis"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "text": "terima kasih",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "informasi",
+      "confidence": 0.9303002953529358
+    }
+  },
+  {
+    "text": "thankyou",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9896404147148132
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9418206214904785
+    }
+  },
+  {
+    "text": "oke",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9953867793083191
+    }
+  },
+  {
+    "text": "makasi",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "informasi",
+      "confidence": 0.9999462366104126
+    }
+  },
+  {
+    "text": "nice",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9976523518562317
+    }
+  }
+]

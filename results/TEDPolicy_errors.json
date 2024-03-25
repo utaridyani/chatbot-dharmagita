@@ -1,0 +1,91 @@
+[
+  {
+    "text": "berikan saya informasi tentang pupuh durma",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "value": "pupuh",
+        "entity": "jenis"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "durma",
+        "entity": "judul"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "sekarang saya ingin informasi mengenai pupuh ginada",
+    "entities": [
+      {
+        "text": "sekarang saya ingin informasi mengenai pupuh ginada",
+        "start": 39,
+        "end": 44,
+        "entity": "jenis",
+        "value": "pupuh"
+      },
+      {
+        "text": "sekarang saya ingin informasi mengenai pupuh ginada",
+        "start": 45,
+        "end": 51,
+        "entity": "judul",
+        "value": "ginada"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "apa anda punya audio dari pupuh ginada?",
+    "entities": [
+      {
+        "text": "apa anda punya audio dari pupuh ginada?",
+        "start": 26,
+        "end": 31,
+        "entity": "jenis",
+        "value": "pupuh"
+      },
+      {
+        "text": "apa anda punya audio dari pupuh ginada?",
+        "start": 32,
+        "end": 38,
+        "entity": "judul",
+        "value": "ginada"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "berikan lirik eda ngaden awak bisa",
+    "entities": [
+      {
+        "text": "berikan lirik eda ngaden awak bisa",
+        "start": 18,
+        "end": 34,
+        "entity": "judul",
+        "value": "ngaden awak bisa"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "saya ingin tahu informasi mengenai pupuh durma",
+    "entities": [
+      {
+        "start": 35,
+        "end": 40,
+        "value": "pupuh",
+        "entity": "jenis"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "durma",
+        "entity": "judul"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

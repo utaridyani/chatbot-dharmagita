@@ -1,0 +1,58 @@
+version: "3.1"
+
+stories:
+
+- story: greeting 1
+  steps:
+  - intent: greet
+  - action: utter_welcoming_message
+
+- story: closing
+  steps:
+  - intent: closing
+  - action: utter_closing_message
+
+- story: asking informasi 1
+  steps:
+  - intent: informasi
+    entities:
+      - judul
+      - jenis
+  - action: action_informasi_dharmagita
+
+- story: asking informasi yadnya
+  steps:
+  - intent: informasi_yadnya
+    entities:
+      - yadnya_type
+  - action: action_display_response
+  - action: action_informasi_yadnya
+
+- story: asking contoh 1
+  steps:
+  - intent: contoh
+    entities:
+      - judul
+      - jenis
+  - action: action_contoh_dharmagita
+  
+- story: asking contoh yadnya
+  steps:
+  - intent: contoh_yadnya
+    entities:
+      - yadnya_type
+  - action: action_contoh_yadnya
+
+- story: asking lirik 1
+  steps:
+  - intent: lirik
+    entities:
+      - judul
+  - action: action_lirik_dharmagita
+
+- story: asking audio 1
+  steps:
+  - intent: audio
+    entities:
+      - judul
+  - action: action_audio_dharmagita

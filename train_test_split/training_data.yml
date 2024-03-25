@@ -1,0 +1,82 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - halo
+- intent: lirik
+  examples: |
+    - Tolong tampilkan [kidung wargasari](judul)
+    - Tampilkan lirik [kidung turun tirta](judul) secara lengkap
+    - teks [kidung warga sari](judul)
+    - Lirik [dadong dauh](judul)
+    - berikan saya lirik untuk [kidung](jenis) [turun tirta](judul)
+    - Berikan lirik [putri cening ayu](judul)
+    - berikan lirik [made cerik](judul)
+- intent: contoh
+  examples: |
+    - Coba berikan contoh lagu [pupuh](jenis) [ginanti](judul)
+    - Apa saja lagu-lagu [pupuh](jenis) [pucung](judul)
+    - lihat daftar lagu [sekar](jenis) [rare](judul)
+    - Sebutkan contoh [Sekar](jenis) [Agung](judul)
+    - sebutkan contoh [sekar](jenis) [rare](judul) yang mudah dihapal
+    - Lagu-lagu [pupuh](jenis) [durma](judul)
+    - Tampilkan macam-macam [sekar](jenis) [madya](judul) yang sering digunakan
+    - Berikan contoh [kekawin](jenis)(judul) yang paling mudah untuk di pelajari?
+    - sebutkan contoh [kekawin](jenis)(judul)
+    - Contoh [kekawin](jenis)(judul) yang terkenal
+    - Apa saja yang termasuk [sekar](jenis) [alit](judul)?
+    - Sebutkan jenis jenis [sekar](jenis) [alit](judul)
+- intent: audio
+  examples: |
+    - Kirimkan saya audio mengenai [pupuh pucung](judul)
+    - tutorial belajar [kidung wargasari](judul)
+    - Bisakah Anda memberikan contoh melantunkan [Pupuh Sinom](judul) yang merupakan bagian dari [Sekar Alit](jenis)?
+    - saya mau dengar [sekar rare](judul)
+    - Berikan audio [pupuh semaradana](judul)
+    - bagaimana nada [kidung wargasari](judul)?
+    - bisa sarankan link audio yang menyanyikan [kidung wargasari](judul)?
+    - Saya mau dengar [Kidung turun tirta](judul)
+    - Saya mau dengar [Kidung Bramara Ngisep Sari](judul)
+    - Saya mau dengar [pupuh sinom](judul)
+    - Saya mau dengar lagu [juru pencar](judul)
+    - saya mau mendengarkan [kidung turun tirta](judul)
+- intent: informasi
+  examples:
+  - text: |
+      saya ingin tahu mengenai [kidung](jenis) [turun tirta](judul)
+  - text: |
+      Pengertian dari [kidung](jenis) [warga sari](judul)
+  - text: |
+      Apa makna dari [kidung](jenis) [wargasari](judul)?
+  - text: |
+      apa arti dari [kidung](jenis) [wargasari](judul)?
+  - text: |
+      apa fungsi [kidung](jenis) [wargasari](judul)
+  - text: |
+      [sekar](jenis) [rare](judul) digunakan untuk apa
+  - text: |
+      Bisa berikan penjelasan singkat mengenai pupuh ginada? Seperti fakta unik atau sejarah kapan dibuatnya, dll	Bisa berikan penjelasan singkat mengenai [pupuh](jenis) [ginada](judul)? Seperti fakta unik atau sejarah kapan dibuatnya, dll
+  - text: |
+      apa makna dari [kidung](jenis) [wargasari](judul)?
+  - text: |
+      Bagaimana sejarah terbentuknya [sekar](judul) [rare](jenis)
+  - text: |
+      Bagaimana sejarah dari [kidung](jenis) [wargasari](judul)?
+  - text: |
+      Apa arti atau makna dalam [pupuh](jenis) [pucung](judul)?
+  - text: |
+      Lihat [sekar](jenis) [rare](jenis)
+  - text: |
+      Cari informasi [kidung](jenis) [wargasari](judul)
+  - text: |
+      Berikan informasi berkaitan dengan kidung-kidung yang sering digunakan pada saat upacara
+  - text: |
+      Apa itu [sekar](jenis) [Rare](jenis)
+  - text: |
+      Jelaskan fungsi [sekar](jenis) [agung](judul)
+  - text: |
+      Berikan saya informasi mengenai [kidung](jenis) [turun tirta](judul)
+  - text: |
+      Apa makna dari [kidung](jenis) [turun tirta](judul)?
+  - text: |
+      saya ingin mengetahui lebih jauh mengenai [pupuh](jenis) [durma](judul)

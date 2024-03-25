@@ -1,0 +1,60 @@
+version: "3.1"
+  
+intents:
+  - greet
+  - closing
+  - informasi
+  - contoh
+  - lirik
+  - audio
+  - informasi_yadnya
+  - contoh_yadnya
+
+entities:
+  - judul
+  - jenis
+  - yadnya_type
+
+slots:
+  jenis:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: jenis
+  judul:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: judul
+  yadnya_type:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: yadnya_type
+
+actions:
+  - action_informasi_dharmagita
+  - action_contoh_dharmagita
+  - action_lirik_dharmagita
+  - action_audio_dharmagita
+  - action_display_response
+  - action_informasi_yadnya
+  - action_contoh_yadnya
+
+responses:
+  utter_acknowledge_provided_info:
+  - text: "Baik, sekarang akan saya carikan informasi mengenai {judul}"
+
+  utter_welcoming_message:
+  - text: "Halo! Perkenalkan saya Bot Dharmagita.\nSaya akan membantu memberikan informasi mengenai Dharmagita. Adapun informasi yang saat ini saya miliki adalah sebagai berikut :\n1. Informasi umum mengenai Dharmagita\n2. Lirik Dharmagita\n3. Audio Dharmagita\n4. Informasi umum mengenai upacara Yadnya\nInformasi apa yang ingin Anda ketahui? Saya bisa membantu Anda secara langsung.\nSilakan kirimkan pesan di bawah ini."
+
+  utter_closing_message:
+  - text: "Senang bisa membantu Anda!"
+
+  utter_fallback_message:
+  - text: "Maaf saya tidak memahami pertanyaan Anda. Mohon berikan informasi lebih lengkap."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

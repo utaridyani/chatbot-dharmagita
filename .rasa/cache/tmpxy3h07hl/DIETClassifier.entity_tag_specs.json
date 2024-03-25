@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-jenis",
+      "2": "I-jenis",
+      "3": "L-jenis",
+      "4": "U-jenis",
+      "5": "B-judul",
+      "6": "I-judul",
+      "7": "L-judul",
+      "8": "U-judul",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-jenis": 1,
+      "I-jenis": 2,
+      "L-jenis": 3,
+      "U-jenis": 4,
+      "B-judul": 5,
+      "I-judul": 6,
+      "L-judul": 7,
+      "U-judul": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

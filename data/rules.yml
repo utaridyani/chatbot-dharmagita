@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+  - rule: greeting
+    steps:
+      - intent: greet
+      - action: utter_welcoming_message
+
+  - rule: closing
+    steps:
+      - intent: closing
+      - action: utter_closing_message
+
+  - rule: informasi
+    steps:
+      - intent: informasi
+      - action: action_informasi_dharmagita
+
+  - rule: contoh
+    steps:
+      - intent: contoh
+      - action: action_contoh_dharmagita
+
+  - rule: lirik
+    steps:
+    - intent: lirik
+    - action: action_lirik_dharmagita
+
+  - rule: audio
+    steps:
+    - intent: audio
+    - action: action_audio_dharmagita
+

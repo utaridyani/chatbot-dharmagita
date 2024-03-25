@@ -1,0 +1,38 @@
+version: "3.1"
+stories:
+- story: informasi 1 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcoming_message
+  - intent: informasi
+    entities:
+    - jenis: pupuh
+    - judul: durma
+  - slot_was_set:
+    - jenis: pupuh
+  - slot_was_set:
+    - judul: durma
+  - action: action_informasi_dharmagita
+  - intent: informasi
+    entities:
+    - jenis: pupuh
+    - judul: ginada
+  - slot_was_set:
+    - jenis: pupuh
+  - slot_was_set:
+    - judul: ginada
+  - action: action_informasi_dharmagita
+  - intent: audio
+    entities:
+    - jenis: pupuh  # predicted: judul: pupuh ginada
+  - slot_was_set:
+    - jenis: pupuh
+  - slot_was_set:
+    - judul: ginada
+  - action: action_audio_dharmagita  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: lirik  # predicted: lirik: berikan lirik [eda ngaden awak bisa](judul)
+    entities: []
+  - slot_was_set:
+    - judul: ngaden awak bisa
+  - action: action_lirik_dharmagita

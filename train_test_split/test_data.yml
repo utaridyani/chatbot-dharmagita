@@ -1,0 +1,25 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hai
+- intent: lirik
+  examples: |
+    - Berikan lirik dari [eda ngaden awak bisa](judul)
+    - Lirik [Putri Cening Ayu](judul)
+- intent: contoh
+  examples: |
+    - Apa saja yang termasuk ke dalam [sekar](jenis) [rare](judul)?
+    - Apa contoh [kidung](jenis) kawitan [wargasari](judul)?
+- intent: audio
+  examples: |
+    - Berikan audio [pupuh ginanti](judul)
+    - saya mau dengar [pupuh pucung](judul)
+    - Putar kidung [pupuh ginada](judul)
+    - saya mau mendengarkan [Kidung Bramara Ngisep](judul)
+- intent: informasi
+  examples: |
+    - Bagaimana cerita dari [lagu](jenis) [putri cening ayu](judul)
+    - Apa makna yang ada dalam [sekar](jenis) [agung](judul)?
+    - [pupuh](jenis) [sinom](judul)
+    - Apakah [pupuh](jenis) [ginanti](judul) termasuk dharmagita?
